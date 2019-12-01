@@ -1,0 +1,114 @@
+.navigation {
+  width: 100%;
+  max-height: 60px;
+  background-color: rgb(37, 37, 37);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+  z-index: 100;
+}
+
+.nav-li {
+  padding: 5px;
+  list-style-type: none;
+  font-size: 1em;
+  font-weight: 800;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
+.navigation-menu {
+  margin: 0px 5% 0px 0px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-li a:hover {
+  cursor: pointer;
+  color: rgb(112, 134, 180);
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+/* style burgerMenu and the list of items */
+
+#burgerButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding-top: 30px;
+  height: 30px;
+  width: 30px;
+  background-image: url("../assets/hamburger-menu.jpg");
+  background-size: cover;
+  z-index: 101;
+}
+#dropDownList {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: none;
+  z-index: 102;
+}
+
+ul {
+  padding: 0;
+  margin-top: none;
+}
+
+.burgerLi {
+  height: 50px;
+  background-color: black;
+  text-align: left;
+  list-style-type: none;
+  color: white;
+  font-style: oblique;
+  font-size: 1.3em;
+  border: 0.5px solid rgb(255, 255, 255);
+  padding: 5px 30px;
+  -webkit-box-shadow: 0px 6px 5px 0px rgb(255, 255, 255);
+  -moz-box-shadow: 0px 6px 5px 0px rgb(255, 255, 255);
+  box-shadow: 0px 6px 5px 0px rgb(255, 255, 255);
+  opacity: 0.98;
+}
+
+.burgerLi:hover {
+  background-color: rgba(56, 56, 56, 0.9) !important ;
+  cursor: pointer;
+}
+.burgerLi a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 623px) {
+  body {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  #wrap-burger-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .navigation-menu {
+    display: none;
+  }
+}
+
+.showDropDownList {
+  width: 40% !important;
+  transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+}
+.hideDropDownList {
+  width: 0px !important;
+  transition: width 0.2s;
+  -webkit-transition: width 0.2s;
+}
+/* end of styling burger menu */

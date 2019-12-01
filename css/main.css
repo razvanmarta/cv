@@ -1,0 +1,217 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Gabriela", serif;
+}
+
+/* style Profile */
+.myContainer {
+  position: relative;
+  height: 300px;
+  top: 0px;
+  width: 80%;
+  left: 100px;
+}
+
+#mySelf {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  color: #000000;
+  font-size: 32px;
+}
+
+.myContainer h5 {
+  position: absolute;
+  top: 170px;
+  left: 300px;
+  color: #000000;
+}
+
+.myContainer h2 {
+  color: #463eb9;
+  position: absolute;
+  top: 130px;
+  left: 730px;
+  font-style: italic;
+  font-size: 26px;
+}
+#mySelf {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  color: #000000;
+}
+.myBrand {
+  position: absolute;
+  width: 210px;
+  top: 200px;
+  left: 305px;
+}
+
+.my-image {
+  width: 200px;
+  height: 250px;
+  margin-top: 60px;
+  margin-left: 35px;
+}
+
+/* style sections icon */
+.head-image {
+  width: 60px;
+  font-size: 40px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.blue {
+  color: #ffffff;
+  background: #428bca;
+}
+.light-blue {
+  color: #ffffff;
+  background: #5bc0de;
+}
+.yellow {
+  color: #ffffff;
+  background: #f0ad4e;
+}
+.green {
+  color: #ffffff;
+  background: #5cb85c;
+}
+.black {
+  color: #ffffff;
+  background: #000000;
+}
+.purple {
+  color: #ffffff;
+  background: #6f5499;
+}
+/* ------------------------------------------- */
+
+#footer {
+  width: 100%;
+  height: 65px;
+  background-color: #212529;
+}
+
+.text-muted {
+  text-align: left;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.carousel-caption p {
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.featurette-heading {
+  font-size: 50px;
+}
+
+/*--------------------------------*/
+
+.heading {
+  margin: 0 0 20px;
+  padding: 0 0 10px;
+  line-height: 24px;
+  border-bottom: 1px solid #0c1ae4;
+  color: #313897;
+}
+.summary {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.ed-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: italic;
+  color: rgb(228, 178, 15);
+}
+.grade {
+  float: right;
+  font-size: 10px;
+  width: 250px;
+}
+.grade-progress-bar {
+  width: 250px;
+  height: 18px;
+  margin-top: 15px;
+}
+
+.work-summary-box {
+  margin-top: 15px;
+}
+.work-desc-box {
+  border-left: 2px solid #f0ad4e;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.edu-date {
+  font-size: 11px;
+  margin-left: 15px;
+}
+.edu-stars {
+  float: right;
+  color: #db8e21;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 1em;
+  right: 10px;
+  text-decoration: none;
+  color: #727272;
+  background-color: #f5f5f5;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+}
+.back-to-top:hover {
+  background-color: #7c7a96;
+}
+.testimonial-user,
+.reference-user {
+  text-align: center;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.testimonial-user h2,
+.reference-user h2 {
+  color: #204fa7;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.reference-user h2 {
+  font-size: 22px;
+}
+.panel {
+  text-align: center;
+  padding-top: 20px;
+}
+.panel-body {
+  text-align: left;
+}
+.training {
+  color: #3e87da;
+}
+.colors {
+  position: relative;
+  top: 40px;
+  left: 220px;
+}
