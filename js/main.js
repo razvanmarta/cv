@@ -1,6 +1,6 @@
 var value = 90;
 var value1 = 80;
-var value2 = 70;
+var value2 = 75;
 
 function createChart(valueLocal, data, id) {
   var myChart = new Chart(document.getElementById(id), {
@@ -45,7 +45,6 @@ Chart.pluginService.register({
     ctx.save();
   }
 });
-// textCenter(valueLocal);
 
 function textCenter(val) {}
 var data = {

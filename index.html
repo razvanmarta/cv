@@ -18,6 +18,10 @@
   </head>
 
   <body id="gradient">
+    <div class="loader">
+        <img src="./assets/Spinner.gif" alt="Loading Marta Razvan CV... "/>
+      </div>
+    
     <div id="generalHideNavItem">
 
     <div class="navigation">
@@ -51,7 +55,8 @@
       <img
       src="assets/razvan.jpg"
       alt="My Self"
-      class="my-image img-thumbnail "
+      class="my-image img-thumbnail myFlip"
+      id="profilePhotography"
       />
       <h2 id="mySelf">Marta Marius Razvan</h2>
       <h5>Manager: SC MCM SRL</h5>
@@ -571,9 +576,13 @@
     </div>
   
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/loader.js"></script> 
+  <script src="js/profilePhotography.js"></script>
   <script src="js/navbar.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/users.js"></script>
   <script src="js/backgroundGenerator.js"></script>
   </body>
