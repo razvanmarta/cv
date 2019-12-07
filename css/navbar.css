@@ -83,11 +83,11 @@ ul {
   text-decoration: none;
 }
 
-@media screen and (max-width: 623px) {
+/* @media screen and (max-width: 623px) {
   body {
     display: none;
   }
-}
+} */
 
 @media screen and (min-width: 1320px) {
   #wrap-burger-menu {
