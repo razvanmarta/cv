@@ -123,6 +123,8 @@ body {
 /* ------------------------------------------- */
 
 #footer {
+  position: absolute;
+  left: 0;
   width: 100%;
   height: 65px;
   background-color: #212529;
@@ -241,7 +243,8 @@ section {
   color: #3e87da;
 }
 .colors {
-  position: relative;
-  top: 40px;
-  left: 220px;
+  position: fixed;
+  bottom: 25px;
+  left: 0;
+  z-index: 102;
 }

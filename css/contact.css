@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f0f0;
+}
+
+.contact {
+  width: 60%;
+  max-width: 688px;
+  background: #ffffff;
+  position: relative;
+  margin-top: 5%;
+  left: 25%;
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-weight: 200;
+}
+
+.txtb {
+  border: 1px solid black;
+  margin: 10 px 0;
+  padding: 12px 18px;
+  border-radius: 10px;
+}
+
+.txtb label {
+  display: block;
+  text-align: left;
+  color: #0e0464;
+  font-size: 14px;
+}
+
+.txtb input,
+.txtb textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  font-size: 12px;
+  outline: none;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: #0fbe2c;
+  padding: 14px 0;
+  color: rgb(7, 7, 7);
+  margin-top: 8px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.links {
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+li {
+  display: inline;
+}
+
+.fa,
+.fas,
+.far {
+  position: absolute;
+  font-size: 25px;
+  text-align: left;
+}
