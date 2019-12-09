@@ -1,7 +1,7 @@
 const myEmail = document.getElementById("sendMail");
+const contact = document.querySelector(".contact");
 
 function sendM(e) {
-  console.log(e);
   e.preventDefault();
   const name = document.getElementById("inputName");
   const email = document.getElementById("inputEmail");
@@ -10,6 +10,14 @@ function sendM(e) {
 
   if (!name.value || !email.value || !subject.value || !message.value) {
     console.log("Please check your entries");
+    const checkE = document.createElement("div");
+    checkE.classList.add("checkFields");
+    checkE.innerText = "Please check your entries";
+    // checkE.style = "background:red; border: 1px solid black; font-size: 22px";
+    setTimeout(function() {
+      checkE.classList.add("displayN");
+    }, 2000);
+    contact.appendChild(checkE);
   } else {
     fetch("https://formspree.io/xwkpakze", {
       method: "POST",
@@ -28,6 +36,9 @@ function sendM(e) {
         data.json();
       })
       .then(response => {
+        // if (response.ok) {
+        //   successMsg();
+        // }
         console.log(response);
       })
       .catch(error => {
