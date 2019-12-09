@@ -130,8 +130,11 @@ body {
   background-color: #212529;
 }
 
-.text-muted {
+.blog-header {
   text-align: left;
+}
+.text-muted {
+  text-align: center;
   font-size: 16px;
   padding-top: 15px;
 }
