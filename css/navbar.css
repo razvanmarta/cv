@@ -46,6 +46,7 @@
   background-size: cover;
   z-index: 101;
 }
+
 #dropDownList {
   position: absolute;
   right: 0px;
@@ -82,12 +83,6 @@ ul {
 .burgerLi a {
   text-decoration: none;
 }
-
-/* @media screen and (max-width: 623px) {
-  body {
-    display: none;
-  }
-} */
 
 @media screen and (min-width: 1320px) {
   #wrap-burger-menu {

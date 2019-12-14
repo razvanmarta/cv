@@ -18,7 +18,7 @@ function createChart(valueLocal, data, id) {
       },
       cutoutPercentage: 80,
       tooltips: {
-        filter: function(item, data) {
+        filter: function (item, data) {
           var label = data.labels[item.index];
           if (label) return item;
         }
@@ -27,7 +27,7 @@ function createChart(valueLocal, data, id) {
   });
 }
 Chart.pluginService.register({
-  beforeDraw: function(chart) {
+  beforeDraw: function (chart) {
     var width = chart.chart.width,
       height = chart.chart.height,
       ctx = chart.chart.ctx;
@@ -46,7 +46,7 @@ Chart.pluginService.register({
   }
 });
 
-function textCenter(val) {}
+function textCenter(val) { }
 var data = {
   labels: ["My val", ""],
   datasets: [

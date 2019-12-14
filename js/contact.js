@@ -14,7 +14,7 @@ function sendM(e) {
     checkE.classList.add("checkFields");
     checkE.innerText = "Please check your entries";
     // checkE.style = "background:red; border: 1px solid black; font-size: 22px";
-    setTimeout(function() {
+    setTimeout(function () {
       checkE.classList.add("displayN");
     }, 2000);
     contact.appendChild(checkE);
